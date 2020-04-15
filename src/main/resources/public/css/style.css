@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#wrapper button {
+
+    padding:10px 20px;
+    color:#555;
+    background-color:#fff;
+    border:solid 1px #555;
+    border-radius:5px;
+    display:block;
+    cursor:pointer;
+}
+
+#wrapper textarea {
+    width:480px;
+
+    border:solid 1px #ccc;
+    display:block;
+    float:left;
+    padding:10px;
+    margin-right:10px;
+}
+
+#wrapper ul{
+    list-style: none;
+    line-height: 28px;
+    padding: 0;
+}
+
+#wrapper ul li:odd{
+    background-color:#efefef;
+}
+
+#wrapper{
+border:solid 1px #999;
+    padding:10px;
+    width: 600px;
+    height: auto;
+    overflow:hidden;
+    margin:0 auto;
+}

@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: newrelic-demo
+  router:
+    static-resources:
+      default:
+        enabled: true
+        mapping: /**
+        paths: classpath:public
+
+endpoints:
+  health:
+    status:
+      http-mapping:
+        DOWN: 200
+
